@@ -1,15 +1,15 @@
 
 
-// songContainer = document.getElementById("song_container");
-// console.log(songContainer);
+songContainer = document.getElementById("song_container");
+console.log(songContainer);
 
-// songs = songContainer.getElementsByClassName("song");
+songs = songContainer.getElementsByClassName("song");
 
-// for( i = 0; i< songs.length; i++ ) {
-//     console.log(songs[i])
-//     console.log(songs[i].getElementsByClassName('title')[0].innerText);
-//     console.log(songs[i].getElementsByClassName('artist')[0].innerText);
-// }
+for( i = 0; i< songs.length; i++ ) {
+    console.log(songs[i])
+    console.log(songs[i].getElementsByClassName('title')[0].innerText);
+    console.log(songs[i].getElementsByClassName('artist')[0].innerText);
+}
 
 //delete
 
